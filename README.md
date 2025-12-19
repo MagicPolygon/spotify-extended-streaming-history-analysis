@@ -5,6 +5,15 @@ A personal project that uses my personal Spotify data to discover more about my 
 
 ### Raw data
 
-The raw data is not included in this repository, as it has private information. However, the anonymised version is included.
+The raw data is not included in this repository, as it has private information.
 
 ### Anonymised data
+
+There is an anonymised version of the data, the most untouched data in this repository.
+
+### Processed data
+
+## Data
+
+The processed Spotify streaming dataset (~42 MB) is too large to include in the repository.  
+You can download it here: [Download CSV](https://drive.google.com/file/d/1ni0G4GwgaufJ313MPRr_0qHyxXdBQ5_c/view?usp=sharing)
