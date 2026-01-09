@@ -1,6 +1,6 @@
 # Spotify Listening Behaviour Analysis
 
-This project analyses my personal Spotify streaming history (2017-2026) to explore my listening habits.
+This project analyses my personal Spotify streaming history (2017-2025) to explore my listening habits.
 
 ## Motivation
 
