@@ -15,15 +15,18 @@ Spotify is a streaming platform for songs, podcasts, and audiobooks, and is like
 
 ## Data
 
-### Raw data
+The raw data comes from a download of my personal Spotify Extended Streaming History, which includes track information, and when and how I streamed content.
 
-The raw data is not included in this repository, as it has private information.
+The data moves through stages during the project:
 
-### Anonymised data
+- **Raw**: Original files as provided by Spotify, left unchanged. These files are not included in this repository.
+- **Anonymised**: Raw data with sensitive fields removed.
+- **Processed**: Cleaned and merged data, ready for analysis and visualisation on Tableau.
 
-There is an anonymised version of the data, the most untouched data in this repository.
+Key characteristics:
 
-### Processed data
+- Multiple JSON files per data expoert
+- Streaming history spans from 2017 to 2026
+- Sensitive fields (e.g., IP addresses) were removed before analysis
 
-The processed Spotify streaming dataset (~42 MB) is too large to include in the repository.  
-You can download it here: [Download CSV](https://drive.google.com/file/d/1ni0G4GwgaufJ313MPRr_0qHyxXdBQ5_c/view?usp=sharing)
+For detailed field definitions, see `docs/schema.md`
