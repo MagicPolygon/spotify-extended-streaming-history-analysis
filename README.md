@@ -40,7 +40,9 @@ For detailed field definitions, see `docs/schema.md`
 
 ## Project structure
 
+```
 spotify-data-analysis/
 |-- data/
 |   |-- anonymised/
 |   |   |-- 
+```
