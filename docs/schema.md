@@ -22,8 +22,10 @@ This schema documents key fields in the processed Spotify listening dataset used
 
 #### Date/Time Fields
 
+All date and time fields are in UTC (Coordinated Universal Time).
+
 - `ts` (*timestamp (UTC)*)
-    This field is a timestamp indicating when the track stopped playing in UTC (Coordinated Universal Time). The order is year, month and day followed by a timestamp in military time.
+    This field is a timestamp indicating when the track stopped playing. The order is year, month and day followed by a timestamp in military time.
 
 #### Playback & Behaviour Fields
 
@@ -48,26 +50,28 @@ The following fields were calculated using the original fields that came with th
 
 #### Date/Time Fields
 
+All date and time fields are in UTC (Coordinated Universal Time).
+
 - `date` (*date*)
-    This field is a date indicating when the track stopped playing in UTC (Coordinated Universal Time). The order is year, then month, then day.
+    This field is a date indicating when the track stopped playing. The order is year, then month, then day.
 
 - `year` (*integer*)
-    This field is an integer denoting the year when the track stopped playing in UTC (Coordinated Universal Time).
+    This field is an integer denoting the year when the track stopped playing.
 
 - `month` (*integer*)
-    This field is an integer denoting the month when the track stopped playing in UTC (Coordinated Universal Time).
+    This field is an integer denoting the month when the track stopped playing.
 
 - `year_month` (*month*)
-    This field is a year and month indicating when the track stopped playing in UTC (Coordinated Universal Time). The order is year, then month.
+    This field is a year and month indicating when the track stopped playing. The order is year, then month.
 
 - `hour` (*integer*)
-    This field is an integer denoting the hour when the track stopped playing in UTC (Coordinated Universal Time).
+    This field is an integer denoting the hour when the track stopped playing.
 
 - `day_of_week` (*integer*)
-    This field is an integer that denotes the day number of the week, indicating when the track stopped playing in UTC (Coordinated Universal Time). The week starts on Monday, which is denoted by 0 and ends on Sunday which is denoted by 6.
+    This field is an integer that denotes the day number of the week, indicating when the track stopped playing. The week starts on Monday, which is denoted by 0 and ends on Sunday which is denoted by 6.
 
 - `day_name` (*string*)
-    This field is a day name indicating when the track stopped playing in UTC (Coordinated Universal Time).
+    This field is a day name indicating when the track stopped playing.
 
 #### Playback & Behaviour Fields
 
