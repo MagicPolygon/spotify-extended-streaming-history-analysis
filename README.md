@@ -28,7 +28,7 @@ The raw data comes from a download of my personal Spotify Extended Streaming His
 - Multiple JSON files per data export
 - Streaming history spans from 2017 to 2025
 - Sensitive fields (e.g., IP addresses) were removed before analysis
-- Full processed dataset: ~220,000 rows
+- Full processed dataset: ~200,000 rows
 
 For detailed field definitions, see `docs/schema.md`
 
