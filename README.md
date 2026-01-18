@@ -61,6 +61,18 @@ spotify-data-analysis/
 └── README.md
 ```
 
+## Analysis overview
+
+1. Read data from JSON files into their own tables
+2. Looked at column names and their data types to understand the raw data and ensure consistency between the tables
+3. Anonymised the raw data by removing IP addresses
+4. Removed any podcast episodes and audiobooks
+5. Removed irrelevant columns
+6. Fixed data types
+7. Vertically stacked the segmented tables
+8. Created derived fields
+9. Visualised the data in bar and line graphs using Tableau for interesting insights
+
 ## Notes/Limitations
 
 - The Tableau workbook was run on the full dataset
