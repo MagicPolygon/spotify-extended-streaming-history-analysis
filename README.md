@@ -68,7 +68,7 @@ spotify-data-analysis/
 3. Anonymised the raw data by removing IP addresses
 4. Removed any podcast episodes and audiobooks
 5. Removed irrelevant columns
-6. Fixed data types
+6. Converted data types
 7. Vertically stacked the segmented tables
 8. Created derived fields
 9. Visualised the data in bar and line graphs using Tableau for interesting insights
