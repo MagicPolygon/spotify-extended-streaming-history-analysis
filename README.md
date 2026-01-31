@@ -15,7 +15,7 @@ Spotify is a streaming platform for songs, podcasts, and audiobooks, and is like
 
 ## Data
 
-The raw data comes from a download of my personal Spotify Extended Streaming History, which includes track information, and when and how I streamed content. Due to size, the full processed dataset is not included in this repository. Instead, a random sample of the dataset is provided in `data/processed/processed_data_sample.csv`.
+The raw data comes from a download of my personal Spotify Extended Streaming History, which includes track information and when and how I streamed content. Due to size, the full processed dataset is not included in this repository. Instead, a random sample of the dataset is provided in `data/processed/processed_data_sample.csv`.
 
 ### Data stages
 
@@ -26,7 +26,7 @@ The raw data comes from a download of my personal Spotify Extended Streaming His
 ### Key characteristics
 
 - Multiple JSON files per data export
-- Streaming history spans from 2017 to 2026
+- Streaming history spans from 2017 to 2025
 - Sensitive fields (e.g., IP addresses) were removed before analysis
 - Full processed dataset: ~200,000 rows
 - Sample dataset: 1000 rows
@@ -72,6 +72,15 @@ spotify-data-analysis/
 7. Vertically stacked the segmented tables
 8. Created derived fields
 9. Visualised the data in bar and line graphs using Tableau for interesting insights
+
+## Key findings
+
+- My top 10 artists by descending order of hours played were Mammal Hands, Lone, deadmau5, Daedelus, Alfa Mist, Ross from Friends, Jacques, Joe Armon-Jones, Jonwayne, and Nujabes.
+- Among these artists, Mammal Hands' skip rate was the third smallest (18%) and the smallest skip rate (15%) was Alfa Mist's.
+- Alfa Mist held the largest total song click count at 38 clicks, nearly doubling the next highest, held by Mammal Hands at 21 clicks.
+- The Alfa Mist song that held the most clicks was "Exit".
+- From February 2023 to August 2025, there was a gigantic spike in Alfa Mist listening time in October 2024.
+- Looking within this month, we see two spikes where "Exit" dominated listening time.
 
 ## Notes/Limitations
 
