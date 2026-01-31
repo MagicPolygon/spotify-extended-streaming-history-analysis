@@ -47,14 +47,15 @@ For detailed field definitions, see `docs/schema.md`
 ```
 spotify-data-analysis/
 ├── data/
-│   ├── anonymised/                     # Anonymised raw JSON files
-│   └── processed/
-│       └── processed_data_sample.csv   # Sample of cleaned, Tableau-ready data
+│   └── anonymised/                     # Anonymised raw JSON files
 ├── docs/
 │   └── schema.md                       # Schema detailing key fields used in the processed dataset
 ├── notebooks/
-│   ├── anonymise.ipynb                 # Anonymises the raw JSON files
+│   ├── 01_anonymisation.ipynb          # Anonymises the raw JSON files
 │   └── data_preparation.ipynb          # Cleans data, fixes data types, and creates new columns
+├── outputs/
+│   ├── figures/                        # PNGs of Tableau charts
+│   └── processed_data_sample/          # Contains sample of cleaned, Tableau-ready data
 ├── tableau/
 │   └── Listening Habits.twb            # Data visualisations
 ├── LICENSE
